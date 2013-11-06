@@ -77,12 +77,9 @@ function UpdateLotto()
 	// 	$crcfile   = $spooldir."lotto.json";
 	// } 
 
-/*
+
 	include_once $basedir."/libraries/class.imperia.inc.php";
 	$clsimperia = new imperia($basedir);
-
-	$nodeIDs = $clsimperia->searchDocument($categoryID,"","",array("__imperia_modified")); //-fieldlist=__imperia_modified /73/74
-	$nodeID = filterArray($nodeIDs);
 
 	if ($d)echo "Debug1: gefundene Node ID: $nodeID\n";
 
@@ -90,7 +87,7 @@ function UpdateLotto()
 
 	if ($dd)echo "Debug2: Inhalt ImperiaDoc\n";
 	if ($dd) var_dump($impdoc);	
-	*/
+
 
 	try {
 		if ($d)echo "Debug1: hole aktuelle lottozahlen\n";
@@ -182,11 +179,9 @@ function UpdateGluecksSpirale()
 	// 	$spooldir  = $basedir."import/lotto/";
 	// 	$crcfile   = $spooldir."lottoGS.json";
 	// } 
-/*
+
 	include_once $basedir."/libraries/class.imperia.inc.php";
 	$clsimperia = new imperia($basedir);
-	$nodeIDs = $clsimperia->searchDocument($categoryID,"","",array("__imperia_modified")); //-fieldlist=__imperia_modified /73/74
-	$nodeID = filterArray($nodeIDs);
 
 	if ($d)echo "Debug1: gefundene Node ID: $nodeID\n";
 
@@ -194,7 +189,7 @@ function UpdateGluecksSpirale()
 
 	if ($dd)echo "Debug2: Inhalt ImperiaDoc\n";
 	if ($dd) var_dump($impdoc);
-	*/
+
 
 	try {
 		if ($d)echo "Debug1: hole aktuelle GlücksSpirale\n";
